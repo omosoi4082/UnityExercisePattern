@@ -1,4 +1,4 @@
-using System;
+ï»¿using System;
 using UnityEngine;
 
 public static class SceneEvents
@@ -9,7 +9,7 @@ public static class SceneEvents
     public static Action SceneReloaded;
     public static Action NextSceneReloaded;
     public static Action LastSceneUnloaded;
-    //°æ·Î·Î Àå¸é Ãß°¡
+    //ê²½ë¡œë¡œ ìž¥ë©´ ì¶”ê°€
     public static Action<string> SceneLoadedByPath;    
     public static Action<string> SceneUnloadedByPath;
     public static Action<int> SceneLoadedByIndex;
